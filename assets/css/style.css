@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+/* menu css */
+nav.navbar {
+    position: fixed;
+    background-color: #000;
+
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: white;
+}
+.navbar-nav .nav-item:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+}
+a:hover {
+    color: black;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    color: black;
+}
+/* Hover vào MORE thì hiện dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Fix bị lệch khi hover */
+.dropdown-menu {
+    margin-top: 0;
+}
+
+/* slider */
+.slider {
+    position: relative;
+}
+.slider img {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+}
+.slider .text-content {
+    position: absolute;
+    bottom: 20px;       
+    left: 50%;  
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+/* The band team */
+.content-opacity {
+    opacity: 0.60;
+}
+/* The band picture */
+.pic-team img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    /* border-radius: 50%; */
+}
+
+/* Tour dates */
+.tour-dates {
+    background-color: #000;
+    /* margin: 0 336px; */
+}
+
+.margin-left {
+    margin-left: 16px;
+}
+
+.border-icon {
+    border-radius: 50%;
+}
+
+/* img place */
+.img-place img {
+    width: 100%;
+}
+
+/* Contact  */
+.padding-row {
+    padding: 0 8px;
+}
+
+/* footer */
+.footer{
+    padding-top: 60px;
+}
+
+/* .end-content {
+    padding
+} */
+@media (max-width: 576px) {
+    .img-the-band {
+        width: 50%;
+    }
+    .text-heading {
+        font-size: 18px;
+    }
+    .text-description {
+        font-size: 14px;
+    }
+    
+}
+
+
